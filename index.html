@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Sedan+SC&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c34389548b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <section class="left">
+            <div class="profile">
+             <img src="assets/man.jpg" alt="profile photo"/>
+            <p>John Doe</p>
+            </div>
+
+            <div class="nav"><i class="fa-solid fa-list"></i><a href="#dashboard">Dashboard</a></div>
+            <div class="nav"><i class="fa-solid fa-tags"></i><a href="#data">Data</a></div>
+            <div class="nav"><i class="fa-solid fa-user"></i><a href="#user">Users</a></div>
+            <div class="nav"><i class="fa-solid fa-calendar-days"></i><a href="#schedule">Schedule</a></div>
+            <div class="nav"><i class="fa-solid fa-gear"></i><a href="#contact">Contact</a></div>
+        
+        </section>
+
+        <section class="right">
+
+            <div class="head">
+              <h1 id="dashboard">DashBoard</h1>
+            <input type="text" id="search" placeholder="search.."/>  
+            </div> 
+
+            <div class="activities">
+                <p style="font-size: 2.1rem; font-weight: bold;">Activities</p>
+                <p style="font-size: 1.3rem;">March - April 2025</p>
+                <img src="assets/BarGraph.png" alt="bar graph"/>
+            </div>
+
+            <article>
+                <h2 id="data">Dashboard Data</h2>
+<div class="dash-data">
+                <div class="box" id="revenue">
+                    <i class="fa-solid fa-dollar-sign"></i>
+                    <p class="card-head">Total Revenue</p>
+                    <p class="card-value">$ 456,553,563</p>
+                </div>
+                <div class="box"id="transaction">
+                    <i class="fa-solid fa-tag"></i>
+                    <p class="card-head">Total Transaction</p>
+                    <p class="card-value">1,450</p>
+                </div>
+                <div class="box" id="likes">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <p class="card-head">Total Likes</p>
+                    <p class="card-value">1,234</p>
+                </div>
+                <div class="box" id="tot-user">
+                    <i class="fa-solid fa-users"></i>
+                    <p class="card-head">Total User</p>
+                    <p class="card-value">856</p>
+                </div>
+            
+         </div>
+</article>
+
+
+
+<article>
+    <h2 id="user">User Interactions</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Month</th>
+                <th>Number of Users</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>January</td>
+                <td>1000</td>
+            </tr>
+            <tr style="background-color: rgba(211, 211, 211, 0.138);">
+                <td>February</td>
+                <td>1200</td>
+            </tr>
+            <tr>
+                <td>March</td>
+                <td>1500</td>
+            </tr>
+            <tr style="background-color: rgba(211, 211, 211, 0.138);">
+                <td>April</td>
+                <td>1250</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</article>
+
+<article>
+    <h2 id="schedule">Today's Schedule</h2>
+    <div class="schedule" > 
+        <div class="appointments">
+            <p class="topic">Meeting from suppliers from Kutta bali</p>
+            <p class="info">14:00-15:00</p>
+            <p class="info">AT SUNSET ROAD KUTTA BALI</p>
+        </div>
+        <div class="appointments even">
+            <p class="topic">Meeting from suppliers from Suresh</p>
+            <p class="info">15:00-16:00</p>
+            <p class="info">AT SUNSET ROAD BALI</p>
+        </div>
+        <div class="appointments">
+            <p class="topic">Meeting from suppliers from Ajay</p>
+            <p class="info">12:00-1:00</p>
+            <p class="info">AT SUNSET ROAD</p>
+        </div>
+        <div class="appointments even">
+            <p class="topic">Meeting from suppliers from Encoprice</p>
+            <p class="info">2:00-3:00</p>
+            <p class="info">AT MORNING ON SOHNA ROAD</p>
+        </div>
+        <div class="appointments">
+            <p class="topic">Meeting from suppliers from JK ltd.</p>
+            <p class="info">10:00-11:00</p>
+            <p class="info">AT TENT HOUSE</p>
+        </div>
+        <div class="appointments even">
+            <p class="topic">Meeting from suppliers from Manager</p>
+            <p class="info">12:00-1:00</p>
+            <p class="info">AT IMPERFECTIO BAR SOHNA ROAD</p>
+        </div>
+        <div class="appointments">
+            <p class="topic">Meeting from suppliers from Chennai</p>
+            <p class="info">2:00-3:00</p>
+            <p class="info">AT SUNSIDE CAFE</p>
+        </div>
+        <div class="appointments even">
+            <p class="topic">Meeting from suppliers from Mumbai</p>
+            <p class="info">4:00-5:00</p>
+            <p class="info">AT TENT HOUSE</p>
+        </div>
+    </div>
+</article>
+
+<article>
+    <h2 id="contact">Contact Details</h2>
+
+    <div class="contact">
+    <div class="part">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.5400466074!2d77.04417434001834!3d28.527252739872903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1744994517231!5m2!1sen!2sin"
+            width="100%" height="450" style="border-radius: 30px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="part">
+        <h3>Feedback</h3>
+        <form>
+            <input type="text" placeholder="Your Name" id="name"/>
+            <input type="text" placeholder="Your Email" id="email" name="mail" />
+            <textarea placeholder="Your Feedback" name="feedback"></textarea><br>
+            <button type="submit">Submit Feedback</button>
+        </form>
+    </div>
+    </div>
+</article>
+
+<footer>
+    <div class="foot">
+    <div class="icons">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-x-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    </div>
+    <div class="last">
+        <All>&copy; 2025 Skylink.Inc | All Rights Reserved.</p>
+    </div>
+    </div>
+</footer>
+        </section>
+    </main>
+</body>
+</html>
